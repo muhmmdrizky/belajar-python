@@ -6,11 +6,17 @@ Aturan penamaan Variabel:
 - Tidak boleh diawali angka
 """
 
-angkaPertama = 5
+firstName = "Muhammad"
+lastName = "Rizky"
 
 # Memanggil variabel
-print("Angka pertama adalah:", angkaPertama)
+print("First Name:", firstName)
+print("Last Name:", lastName)
+
+
+firstNumber = 5
+lastNumber = 6
 
 # Assignment Indirect
-angkaKedua = angkaPertama
-print("Angka kedua adalah:", angkaKedua)
+lastNumber = firstNumber
+print("Last Number:", lastNumber)
