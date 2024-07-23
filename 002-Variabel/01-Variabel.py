@@ -4,19 +4,15 @@
 Aturan penamaan Variabel:
 - Boleh diawali huruf atau garis bawah (variabelPertama, variabel_Pertama, _variabelPertama)
 - Tidak boleh diawali angka
+- Tidak boleh menggunakan keyword yang sudah ada di python
+- Tidak boleh mengandung spasi
 """
 
-firstName = "Muhammad"
-lastName = "Rizky"
+first_name = "Muhammad"
+last_name = "Rizky"
+print(f"Nama Lengkap: {first_name} {last_name}")
 
-# Memanggil variabel
-print("First Name:", firstName)
-print("Last Name:", lastName)
-
-
-firstNumber = 5
-lastNumber = 6
-
-# Assignment Indirect
-lastNumber = firstNumber
-print("Last Number:", lastNumber)
+first_number = 5
+second_number = 6
+result = first_number * second_number
+print(f"Second number = {result}")
